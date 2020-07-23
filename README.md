@@ -1,5 +1,5 @@
 # Image-processing
-### Java code of COMP7502
+Java code of COMP7502 labs and projects
 
 ## Lab1
 ### 1_1 
@@ -28,6 +28,7 @@ Return cumulative histogram
 Perform histogram equalization
 ### 2_8
 Apply the box smooth filter on the image
+
 Hint: 8/9/10 New image to store the intermediate value, otherwise the origion value will be changed when filter working
 ### 2_9
 Apply the median filter on the image
