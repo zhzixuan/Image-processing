@@ -35,4 +35,9 @@ Apply the median filter on the image
 ### 2_10
 Apply the Laplacian filter on the image
 
+## Lab3
+### 3_1
+Implement the Fourier transform
+### 3_2
+Implement the inverse Fourier transform
 
