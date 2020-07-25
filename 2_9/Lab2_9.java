@@ -1,12 +1,12 @@
 /**
 
-In this task you will implement the method medianFilter of the class Lab2_9 which applies the median filter on the image. 
+In this task you will implement the method medianFilter of the class Lab2_9 which applies the median filter on the image.
 
-You should handle the boundary case by keeping the pixels unchanged. 
+You should handle the boundary case by keeping the pixels unchanged.
 
-The expected output is provided in the files solution3.png and solution7.png, where the digit in the filename is the threshold. 
+The expected output is provided in the files solution3.png and solution7.png, where the digit in the filename is the threshold.
 
-You may use the following command to check if your output is identical to ours. 
+You may use the following command to check if your output is identical to ours.
 
 cmp solution7.png out.png
 
@@ -33,15 +33,15 @@ public class Lab2_9 {
 
 	public void medianFilter(Img i, int size) {
 		//Your code here
-        int median;
-        int f = size/2;
-        int[] filter = new int[size*size];
-        byte[] i2 = new byte[i.img.length];
-        System.arraycopy(i.img, 0, i2, 0, i.img.length);
-                    
-        for (int x=f; x<i.height-f; x++) {
+    int median;
+    int f = size/2;
+    int[] filter = new int[size*size];
+    byte[] i2 = new byte[i.img.length];
+    System.arraycopy(i.img, 0, i2, 0, i.img.length);
+
+    for (int x=f; x<i.height-f; x++) {
 			for (int y=f; y<i.width-f; y++) {
-                
+
                 int c = 0;
                 for(int j=-f; j<=f; j++){
                     for(int k=-f; k<=f; k++){
@@ -57,11 +57,11 @@ public class Lab2_9 {
                     median = (int)(filter[mid-1] + filter[mid])/2;
 //                 System.out.println(median);
                 i.img[x*i.width+y] = (byte)(median);
-                
+
 			}
 		}
 	}
-		
+
 	public static void main(String[] args) {
 		new Lab2_9();
 	}
