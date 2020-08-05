@@ -151,6 +151,7 @@ public class P1_2 {
                 f_star[x * i.width + y].div(i.width * i.height);
                 f_star[x * i.width + y].mul(Math.pow(-1, x + y));
                 if (f_star[x * i.width + y].r < 0) f_star[x * i.width + y].r = 0;
+                if (f_star[x * i.width + y].r > 255) f_star[x * i.width + y].r = 255;
                 i.img[x * i.width + y] = (byte) (f_star[x * i.width + y].r);
             }
         }
