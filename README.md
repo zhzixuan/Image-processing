@@ -37,7 +37,15 @@ Apply the Laplacian filter on the image
 
 ## Lab3
 ### 3_1
-Implement the Fourier transform
+Implement the Fourier Transform
 ### 3_2
-Implement the inverse Fourier transform
+Implement the Inverse Fourier Transform
+
+## Project 1
+### 1_1
+Implement the Fast Fourier Transform
+### 1_2
+Implement the Inverse Fast Fourier Transform and ButterWorth Lowpass Filter
+### 1_3
+Implement the Notch Filter
 
