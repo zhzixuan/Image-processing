@@ -49,3 +49,13 @@ Implement the Inverse Fast Fourier Transform and ButterWorth Lowpass Filter
 ### 1_3
 Implement the Notch Filter
 
+## Project 2
+### 2_1
+Calculate the gradient image
+### 2_2
+Apply 2D Gaussian smoothing to the image
+### 2_3
+Change the image to the response map R of the Harris corner detector
+### 2_4
+Implement the Harris Corner Detection Algorithm, return a list of detected corners (up to sub pixel accuracy) and sets pixels at corners to 255 and all others to 0
+
