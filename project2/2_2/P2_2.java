@@ -70,10 +70,8 @@ public class P2_2 {
         byte[] i2 = new byte[i.img.length];
         double[] i3 = new double[i.img.length];
         System.arraycopy(i.img, 0, i2, 0, i.img.length);
-        for (int y = 0; y < i.width; y++) {
-            for (int x = 0; x < i.height; x++) {
-                i3[x * i.width + y] = (double) (i2[x * i.width + y] & 0xFF);
-            }
+        for (int x = 0; x < i2.length; x++) {
+            i3[x] = (double) (i2[x] & 0xFF);
         }
 
         // Implement the 2D convolution for x

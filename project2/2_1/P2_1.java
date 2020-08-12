@@ -16,7 +16,6 @@ public class P2_1 {
 
     public void gradientImage(Img i) {
         //Your code here
-        int sigma = 1;
         byte[] i2 = new byte[i.img.length];
         System.arraycopy(i.img, 0, i2, 0, i.img.length);
         for (int y = 1; y < i.width - 1; y++) {
