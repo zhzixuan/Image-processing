@@ -1,5 +1,5 @@
 # Image-processing
-Java code of COMP7502 labs and projects
+My implementation of COMP7502 labs and projects with Java code.
 
 ## Lab1
 ### 1_1 
@@ -29,7 +29,7 @@ Perform histogram equalization
 ### 2_8
 Apply the box smooth filter on the image
 
-Hint: 8/9/10 New image to store the intermediate value, otherwise the origion value will be changed when filter working
+Hint: 8/9/10 Use a new image to store the intermediate value, otherwise the origion value will be always changed when filter working
 ### 2_9
 Apply the median filter on the image
 ### 2_10
